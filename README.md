@@ -1,18 +1,15 @@
-visa-test
+time-to-natural-english-translator
 =========
 IMPLICIT CONVENTIONS:
 __ double underscore method prefixes denote private methods
 _ single underscore method prefixes denote protected methods
 
 RUN:
-1. open index.html under visa-test/test/lib/ test folder in a browser and see the output for different sample dates
-   Feel free to modify it and run the tests again :-)
-
+1. open index.html under test/lib/ test folder in a browser and see the output for different sample dates
 2. open index.html under visa-test root directory in a browser  the example will only return the current time in conversational manner
 
 REQUIREMENTS:
 internet connection as both jQuery and QUnit are pulled in as CDN resources
-
 
 ASSUMPTIONS:
 1. The time is reported according to the browser / machine settings without any offsets
